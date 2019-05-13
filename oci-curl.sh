@@ -9,6 +9,9 @@
 # oci-curl iaas.us-ashburn-1.oraclecloud.com post ./request.json "/20160918/vcns"
 
 # List databases
+# ./oci-curl.sh database.us-ashburn-1.oraclecloud.com get "/20160918/databases?compartmentId=$compartmentId&dbHomeId=$dbHomeId" 
+
+# List backups
 # ./oci-curl.sh database.us-ashburn-1.oraclecloud.com get "/20160918/backups?databaseId=$databaseId"
 
 # Get dbHomeId
