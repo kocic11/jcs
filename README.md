@@ -1,1 +1,1 @@
-# jcs
+# JCS related scripts
